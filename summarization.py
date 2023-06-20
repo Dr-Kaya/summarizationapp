@@ -4,7 +4,7 @@ import streamlit as st
 from langchain import OpenAI
 from langchain.docstore.document import Document
 from langchain.text_splitter import CharacterTextSplitter
-from langchain.chains.summarize import load_summarization_chain
+from langchain.chains.summarize import load_summarize_chain
 
 #generate response
 def generate_response(txt):
